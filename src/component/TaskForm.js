@@ -10,12 +10,12 @@ export default function TaskForm() {
   const [title, setTitle] = useState("");
   const [dueDate, setDueDate] = useState("");
   const [status, setStatus] = useState("");
-  const [priority, setPriority] = useState(""); // No default selection
+  const [priority, setPriority] = useState("");
   const [success, setSuccess] = useState(false);
 
   const [taskError, setTaskError] = useState("");
   const [dueDateError, setDueDateError] = useState("");
-  const [priorityError, setPriorityError] = useState(""); // For priority error
+  const [priorityError, setPriorityError] = useState(""); 
 
   const handleSubmit = (event) => {
     event.preventDefault();
